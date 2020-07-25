@@ -3,8 +3,16 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'boiler-plate';
+
+  title = 'TOOLKIT';
+  links = [
+    { path: '/item', icon: 'devices_other', title: 'Item'},
+    { path: '/courses', icon: 'view_list', title: 'Courses'}
+  ];
+
+  constructor() {}
+
 }
