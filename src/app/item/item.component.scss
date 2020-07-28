@@ -1,3 +1,13 @@
+@import '~src/_variables.scss';
+
 .full-width {
   width: 100%;
+}
+
+.mat-title {
+  color: $primary;
+}
+
+.first-element {
+  padding-top: 20px;
 }

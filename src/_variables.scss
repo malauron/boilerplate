@@ -1,0 +1,9 @@
+@import '~@angular/material/theming';
+
+$app-primary: mat-palette($mat-blue-grey, 500, 400, 900);
+$app-accent: mat-palette($mat-orange, 900, A100, A700);
+$app-warn: mat-palette($mat-red, 500, A200, A700);
+
+$primary: mat-color($app-primary);
+$accent: mat-color($app-accent);
+$warn: mat-color($app-warn);
